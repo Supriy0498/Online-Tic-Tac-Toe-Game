@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/INVITELAYOUT"
+    tools:context=".InviteActivity">
+
+    <Button
+        android:id="@+id/BtnGame4x4"
+        android:layout_width="206dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:onClick="game4x4"
+        android:text="Invite for 4x4 Game"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BtnEnter"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <TextView
+        android:id="@+id/textViewCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:padding="10dp"
+        android:text="Welcome  "
+        android:textSize="24sp"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BtnEnter"
+        android:layout_width="206dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="44dp"
+        android:text="Invite for 3x3 Game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTexEnter" />
+
+    <EditText
+        android:id="@+id/editTexEnter"
+        android:layout_width="287dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="Enter userName of the player"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewCode" />
+
+    <ImageView
+        android:id="@+id/imageViewHelp"
+        android:layout_width="56dp"
+        android:layout_height="43dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BtnGame4x4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/BtnGame4x4"
+        app:layout_constraintTop_toTopOf="@+id/BtnGame4x4"
+        app:srcCompat="@drawable/ic_live_help_black"
+        android:onClick="showHelp"
+        android:contentDescription="TODO"
+        tools:ignore="VectorDrawableCompat" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

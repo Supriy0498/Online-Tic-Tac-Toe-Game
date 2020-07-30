@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    tools:context=".Game4x4">
+
+    <TextView
+        android:id="@+id/textViewTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:text="Your Turn"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:clickable="false"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/grid3"
+        android:orientation="vertical"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:id="@+id/image4x4View1"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="1"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View2"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="2"
+                android:clickable="false"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View3"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="3"
+                android:clickable="false"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View4"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="4"
+                android:clickable="false"
+                app:srcCompat="@drawable/crossnew" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/image4x4View5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="5"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View6"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="6"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View7"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="7"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View8"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="8"
+                app:srcCompat="@drawable/crossnew" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/image4x4View9"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="9"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View10"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="10"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View11"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="11"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View12"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="12"
+                app:srcCompat="@drawable/crossnew" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/image4x4View13"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="13"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View14"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="14"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View15"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="15"
+                app:srcCompat="@drawable/crossnew" />
+
+            <ImageView
+                android:id="@+id/image4x4View16"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="16"
+                app:srcCompat="@drawable/crossnew" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

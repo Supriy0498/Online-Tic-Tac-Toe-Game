@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/gameContainer4x4"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textViewTurn"
+        android:background="@drawable/grid3"
+        android:rowCount="4"
+        android:columnCount="4">
+
+        <TableRow
+            android:layout_margin="5dp"
+            >
+
+            <ImageView
+                android:id="@+id/image4x4View1"
+                android:layout_width="69dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="10dp"
+                android:tag="1"
+                android:onClick="play4x4"
+                android:clickable="true"
+                android:focusable="true" />
+
+
+            <ImageView
+                android:id="@+id/image4x4View2"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:tag="2"
+                android:onClick="play4x4"
+                android:clickable="true"
+                android:focusable="true"/>
+            <ImageView
+                android:id="@+id/image4x4View3"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:tag="3"
+                android:onClick="play4x4"
+                android:clickable="true"
+                android:focusable="true"/>
+
+            <ImageView
+                android:id="@+id/image4x4View4"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:tag="4"
+                android:onClick="play4x4"
+                android:clickable="true"
+                android:focusable="true"/>
+        </TableRow>
+
+        <TableRow/>
+
+
+        <TableRow
+            android:layout_margin="5dp"
+            >
+            <ImageView
+                android:id="@+id/image4x4View5"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="5"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/image4x4View6"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="6"
+                android:clickable="true"
+                android:focusable="true"  />
+
+            <ImageView
+                android:id="@+id/image4x4View7"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="7"
+                android:clickable="true"
+                android:focusable="true"  />
+
+            <ImageView
+                android:id="@+id/image4x4View8"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="8"
+                android:clickable="true"
+                android:focusable="true"  />
+        </TableRow>
+
+        <TableRow
+            android:layout_margin="5dp"
+            >
+            <ImageView
+                android:id="@+id/image4x4View9"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="9"
+                android:clickable="true"
+                android:focusable="true"  />
+
+            <ImageView
+                android:id="@+id/image4x4View10"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="10"
+                android:clickable="true"
+                android:focusable="true"  />
+
+            <ImageView
+                android:id="@+id/image4x4View11"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="11"
+                android:clickable="true"
+                android:focusable="true"  />
+
+            <ImageView
+                android:id="@+id/image4x4View12"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="12"
+                android:clickable="true"
+                android:focusable="true" />
+        </TableRow>
+
+        <TableRow
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:id="@+id/image4x4View13"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="13"
+                android:clickable="true"
+                android:focusable="true"  />
+
+            <ImageView
+                android:id="@+id/image4x4View14"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="14"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/image4x4View15"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="15"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <ImageView
+                android:id="@+id/image4x4View16"
+                android:layout_width="70dp"
+                android:layout_height="150dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:onClick="play4x4"
+                android:tag="16"
+                android:clickable="true"
+                android:focusable="true" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
