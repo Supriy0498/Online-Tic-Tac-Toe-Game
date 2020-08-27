@@ -1,5 +1,5 @@
 # Online-Tic-Tac-Toe-Game
-Online multiplayer Tic Tac Toe Game with 3x3 and 4x4 game board.Invite your friends using real-time push notifications
+Online multiplayer Tic Tac Toe Game with 3x3 and 4x4 game board.  Invite your friends using real-time push notifications
 
 <img src="https://user-images.githubusercontent.com/54996735/91399399-8b99c580-e85b-11ea-8620-218fafd8c0f2.gif" width="285">
 
